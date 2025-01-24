@@ -1,0 +1,5 @@
+streamlit
+webbrowser
+subprocess
+googletrans
+pygame
