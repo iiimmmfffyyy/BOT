@@ -2,12 +2,9 @@ import streamlit as st
 #import webbrowser
 #import subprocess
 import googletrans
-import pygame
+#import pygame
 
 mmm = googletrans.Translator()
-pygame.init()
-Hi = pygame.mixer.Sound('o-privet_NnF9NpL.mp3')
-b = pygame.mixer.Sound('poka.mp3')
 st.text("всем привет")
 st.text("с вами ГУГЛ")
 st.text("я чат бот")
@@ -20,7 +17,6 @@ def qwe ():
     q = st.text_input("...")
     if q == "привет":
         st.text("привет! :)")
-        Hi.play()
     elif q == "как тебя зовут?":
         st.text("меня зовут ГУГЛ")
     elif q == "кто ты?":
