@@ -1,6 +1,6 @@
 import streamlit as st
-import webbrowser
-import subprocess
+#import webbrowser
+#import subprocess
 import googletrans
 import pygame
 
@@ -40,9 +40,9 @@ def qwe ():
     elif q == "сколько братьев у тваего создателя?":
         st.text("2 родных и 2 дваютодных")
     elif q == "учи.ру":
-        webbrowser.open("https://uchi.ru/profile/students/")
-    elif q == "маенкравт":
-        subprocess.run(r"C:\Users\Евгений\AppData\Roaming\.minecraft\TLauncher.exe")
+        st.link_button("учи.ру", "https://uchi.ru/profile/students/")
+#    elif q == "маенкравт":
+#        subprocess.run(r"C:\Users\Евгений\AppData\Roaming\.minecraft\TLauncher.exe")
     elif q == "что ты можеш?":
         st.text("ямогу перевести текст на английский - переведи на английский")
         st.text("или на туский - переведи на руский")
@@ -73,17 +73,25 @@ def qwe ():
     elif q == "а ещооо":
         st.text("а ещооо ты надоел")
     elif q == "блины":
-        webbrowser.open("https://yandex.ru/search?text=%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82+%D0%B1%D0%BB%D0%B8%D0%BD%D0%BE%D0%B2&clid=2411726&fyandex=1&lr=54")
+        st.link_button("блины", "https://yandex.ru/search?text=%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82+%D0%B1%D0%BB%D0%B8%D0%BD%D0%BE%D0%B2&clid=2411726&fyandex=1&lr=54")
     elif q == "борщ":
-        webbrowser.open("https://yandex.ru/search?text=%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82+%D0%B1%D0%BE%D1%80%D1%89%D0%B0&lr=54&clid=2411726&src=suggest_B&fyandex=1")
+        st.link_button("борщ", "https://yandex.ru/search?text=%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82+%D0%B1%D0%BE%D1%80%D1%89%D0%B0&lr=54&clid=2411726&src=suggest_B&fyandex=1")
     elif q == "пиперони":
-        webbrowser.open("https://yandex.ru/search?text=%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82+%D0%BF%D0%B5%D0%BF%D0%BF%D0%B5%D1%80%D0%BE%D0%BD%D0%B8&lr=54&clid=2411726&src=suggest_B&fyandex=1")
+        st.link_button("пиперони", "https://yandex.ru/search?text=%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82+%D0%BF%D0%B5%D0%BF%D0%BF%D0%B5%D1%80%D0%BE%D0%BD%D0%B8&lr=54&clid=2411726&src=suggest_B&fyandex=1")
     elif q == "пица":
-        webbrowser.open("https://yandex.ru/search?text=%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82+%D0%BF%D0%B8%D1%86%D1%86%D1%8B&lr=54&clid=2411726&fyandex=1")
+        st.link_button("пица", "https://yandex.ru/search?text=%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82+%D0%BF%D0%B8%D1%86%D1%86%D1%8B&lr=54&clid=2411726&fyandex=1")
     elif q == "ролы":
-        webbrowser.open("https://yandex.ru/search?text=%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82+%D1%80%D0%BE%D0%BB%D0%BB%D0%BE%D0%B2&lr=54&clid=2411726&src=suggest_B&fyandex=1")
+        st.link_button("ролы", "https://yandex.ru/search?text=%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82+%D1%80%D0%BE%D0%BB%D0%BB%D0%BE%D0%B2&lr=54&clid=2411726&src=suggest_B&fyandex=1")
     elif q == "звуки":
-        webbrowser.open("https://www.myinstants.com/ru/index/ru/")
+        st.link_button("звуки", "https://www.myinstants.com/ru/index/ru/")
+    elif q == "сайты":
+        st.link_button("паролль", "https://iiimmmfffyyy.streamlit.app/")
+        st.link_button("звуки", "https://www.myinstants.com/ru/index/ru/")
+        st.link_button("ролы", "https://yandex.ru/search?text=%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82+%D1%80%D0%BE%D0%BB%D0%BB%D0%BE%D0%B2&lr=54&clid=2411726&src=suggest_B&fyandex=1")
+        st.link_button("пица", "https://yandex.ru/search?text=%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82+%D0%BF%D0%B8%D1%86%D1%86%D1%8B&lr=54&clid=2411726&fyandex=1")
+        st.link_button("пиперони", "https://yandex.ru/search?text=%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82+%D0%BF%D0%B5%D0%BF%D0%BF%D0%B5%D1%80%D0%BE%D0%BD%D0%B8&lr=54&clid=2411726&src=suggest_B&fyandex=1")
+        st.link_button("борщ", "https://yandex.ru/search?text=%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82+%D0%B1%D0%BE%D1%80%D1%89%D0%B0&lr=54&clid=2411726&src=suggest_B&fyandex=1")
+        st.link_button("блины", "https://yandex.ru/search?text=%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82+%D0%B1%D0%BB%D0%B8%D0%BD%D0%BE%D0%B2&clid=2411726&fyandex=1&lr=54")
     elif q == "переведи на английский":
         def rty ():
             textSTART = st.text_input("ведите текст")
