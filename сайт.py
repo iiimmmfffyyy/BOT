@@ -88,6 +88,7 @@ def qwe ():
         st.link_button("пиперони", "https://yandex.ru/search?text=%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82+%D0%BF%D0%B5%D0%BF%D0%BF%D0%B5%D1%80%D0%BE%D0%BD%D0%B8&lr=54&clid=2411726&src=suggest_B&fyandex=1")
         st.link_button("борщ", "https://yandex.ru/search?text=%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82+%D0%B1%D0%BE%D1%80%D1%89%D0%B0&lr=54&clid=2411726&src=suggest_B&fyandex=1")
         st.link_button("блины", "https://yandex.ru/search?text=%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82+%D0%B1%D0%BB%D0%B8%D0%BD%D0%BE%D0%B2&clid=2411726&fyandex=1&lr=54")
+        st.link_button("ютуб", "https://www.youtube.com/?ysclid=m6l0k7asj9418288841")
     elif q == "переведи на английский":
         def rty ():
             textSTART = st.text_input("ведите текст")
